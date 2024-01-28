@@ -43,10 +43,10 @@
         }
 
         .logo {
-                width: 280px;
-                object-fit: cover;
-                object-position: center;
-            }
+            width: 280px;
+            object-fit: cover;
+            object-position: center;
+        }
 
 
         @media screen and (min-width: 600px) {
@@ -74,6 +74,13 @@
                 We're currently developing our range of reasonably priced baseball equipment with a focus on keeping you
                 on the field, ensuring you're healthy and strong, and aiding you in making gains.
             </p>
+
+            <script async src="https://js.stripe.com/v3/buy-button.js">
+            </script>
+
+            <stripe-buy-button buy-button-id="buy_btn_1OdW8LHgQt4OQ0d4in3nFwfV"
+                publishable-key="pk_live_51OcZZfHgQt4OQ0d4fHoCYK04b42iQJOeryehGM0YawLavKU2trIlTF7Xipc8iyDDBwQxs5OrgRa95XQansNlne2q002cwGU5Ki">
+            </stripe-buy-button>
 
             <p style="text-align: center;">Meanwhile, find us on our socials!</p>
             <div style="text-align: center;">
